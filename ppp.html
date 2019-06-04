@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+var aaastr; //窗口对象
+function load()
+{
+  var surl;
+  surl = document.URL;
+  
+  document.write( surl + "<br/>" );
+  document.write( "host: " + window.location.host + "<br/>" );
+  document.write( "pathname: " + window.location.pathname + "<br/>" );
+}
+</script>
+</head>
+
+<body Onload="load()">
+
+<script language="javascript" type="text/javascript" src="http://fw.qq.com/ipaddress">
+</script> 
+
+<script>
+  document.write("你的IP是："+IPData[0]+"，来自："+IPData[2]);
+</script>
+
+</body>
+
+</html>
